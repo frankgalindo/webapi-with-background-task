@@ -1,4 +1,6 @@
-﻿# Web API com Tarefas em background
+![build](https://github.com/FrankWendel/webapi-with-background-task/actions/workflows/dotnet.yml/badge.svg?branch=main)
+
+# Web API com Tarefas em background
 
 Essa aplicação é um exemplo onde uma WebAPI recebe requisições de tarefas que precisam rodar em segundo plano, pode ser usado em cenários onde o tempo da tarefa é muito longo e não faz sentido deixar o usuário esperando. Essa implementação é bem simples e tem alguns problemas de escalabilidade e rastreabilidade, para uma solução mais robusta eu aconcelho o uso do [HangFire](https://www.hangfire.io/)
 
